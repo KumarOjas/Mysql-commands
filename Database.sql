@@ -12,5 +12,9 @@ INSERT INTO limbs (things,legs,arms) VALUES ('photograph',0,1);
 INSERT INTO limbs (things,legs,arms) VALUES ('tripod',3,0);
 INSERT INTO limbs (things,legs,arms) VALUES ('PeglegPete',1,2);
 INSERT INTO limbs (things,legs,arms) VALUES ('space alien',NULL,NULL);
+SELECT * FROM limbs;
+
+
+
 
 
