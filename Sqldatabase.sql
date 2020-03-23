@@ -1,0 +1,13 @@
+Create database cookbook;
+Use cookbook;
+Create table limbs(thing VARCHAR(20),logs INT ,arms INT);
+INSERT INTO limbs(thing,legs,arms) VALUES('human',2,2);
+INSERT INTO limbs(thing,legs,arms) VALUES('insect',6,0);
+INSERT INTO limbs(thing,legs,arms) VALUES('squid',0,2);
+INSERT INTO limbs(thing,legs,arms) VALUES('fish',0,0);
+INSERT INTO limbs(thing,legs,arms) VALUES('centipede',110,0);
+INSERT INTO limbs(thing,legs,arms) VALUES('table',4,0);
+INSERT INTO limbs(thing,legs,arms) VALUES('armchair',4,2);
+INSERT INTO limbs(thing,legs,arms) VALUES('phonograph',0,1);
+INSERT INTO limbs(thing,legs,arms) VALUES('tripod',2,3);
+SELECT * FROM limbs;
