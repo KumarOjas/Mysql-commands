@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use DBI;
-mu $db_name="cookbook";
+my $db_name="cookbook";
 my $host_name="localhost";
 my $user_name="cbuser";
 my $password="cbpass";
